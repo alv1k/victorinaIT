@@ -1,0 +1,36 @@
+<div class="question1" style="height: 1000px; width:500px;background-color:purple; margin-left:300px;">
+	<img style="width:500px" src="https://kto-kem.ru/wp-content/uploads/2022/01/gornyak.jpeg">
+	<h1>Человек какой професси занимается этим?</h1>
+	<div class="answer1" style="height: 100px;background-color: red; width: 500px">Горняк</div>
+	<div class="answer2" style="height: 100px;background-color: blue; width:500px">Шахтер</div>
+	<div class="answer3" style="height: 100px;background-color: yellow; width: 500px">Обогатитель</div>
+</div>
+<div class="question2" style="height: 1000px; width:500px;background-color:purple; margin-left:300px;display:none;">
+	<img style="width:500px" src="http://i.ytimg.com/vi/9w-Pq_pxfxc/maxresdefault.jpg">
+	<h1>Когда отмечают день шахтера</h1>
+	<div class="answer1" style="height: 100px;background-color: red; width: 500px">Первое апреля</div>
+	<div class="answer2" style="height: 100px;background-color: blue; width:500px">Последнее воскресенье августа</div>
+	<div class="answer3" style="height: 100px;background-color: yellow; width: 500px">Первое августа</div>
+	</div>
+<div class="question3" style="height: 1000px; width:500px;background-color:purple; margin-left:300px;display:none;">
+	<img style="width:500px" src="https://psihoman.ru/uploads/posts/2022-01/1643294763_1.jpg">
+	<h1>Кто такой шахтер?</h1>
+	<div class="answer1" style="height: 100px;background-color: red; width: 500px">Человек работаюший под землей</div>
+	<div class="answer2" style="height: 100px;background-color: blue; width:500px">Человек работаюший в космосе</div>
+	<div class="answer3" style="height: 100px;background-color: yellow; width: 500px">Человек работаюший на земле</div>
+</div>
+<img class="img" src="https://avatars.mds.yandex.net/i?id=0b6b7ce9c5016a057e2c4956a06ce305-4322178-images-thumbs&n=13" style="display: none;">
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+<script type="text/javascript">
+
+	find("question1 answer1").click("alert", "неправильно");
+	find("question1 answer2").click("show", "question2" ,"правильно");
+	find("question1 answer3").click("alert", "неправильно");
+	find("question2 answer1").click("alert", "неправильно");
+	find("question2 answer2").click("show", "question3" ,"правильно");
+	find("question2 answer3").click("alert", "неправильно");
+	find("question3 answer1").click("show", "img", "правильно");
+	find("question3 answer2").click("alert" ,"неправильно");
+	find("question3 answer3").click("alert", "неправильно");	
+
+</script>

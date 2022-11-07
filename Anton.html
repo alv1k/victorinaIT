@@ -1,0 +1,39 @@
+
+
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+<div  class="question1"  style="width: 500px; background-color:red; margin-left:200px; ">
+	<img style="width: 500px;" src="https://i.ytimg.com/vi/9wyKZF5syF4/maxresdefault.jpg">
+	<div class="answer1" style="width: 500px; height: 100px; background-color:purple; font-size:20px ">лётчик</div>
+	<div class="answer2" style="width: 500px; height: 100px; background-color: blue; font-size:20px ">учёный</div>
+	<div class="answer3" style="width: 500px; height: 100px; background-color: yellow; font-size:20px ">шахтёр</div>
+</div>
+
+ <div class="question2" style="width: 500px; background-color:red; margin-left:200px; display:none">
+	<img style="width: 500px;" src="https://vuzopedia.ru/storage/app/uploads/public/619/4fe/219/6194fe219e6f7264178276.jpg">
+	<div class="answer1" style="width: 500px; height: 100px; background-color:purple; font-size:20px">огранщик</div>
+	<div class="answer2" style="width: 500px; height: 100px; background-color: blue;font-size:20px ">смотритель</div>
+	<div class="answer3" style="width: 500px; height: 100px; background-color: yellow;font-size:20px ">шахтёр</div>
+
+</div>
+
+<div class="question3" style="width: 500px; background-color:red; margin-left:200px; display:none">
+	<img style="width: 500px;" src="https://sdelanounas.ru/i/c/2/r/f_c2RlbGFub3VuYXMucnUvdXBsb2Fkcy85LzYvOTYwMTYwMzc5ODE3OV9vcmlnLmpwZWc_X19pZD0xMzY5MzA=.jpeg">
+	<div class="answer1" style="width: 500px; height: 100px; background-color:purple; font-size:20px ">смотрит алмазы</div>
+	<div class="answer2" style="width: 500px; height: 100px; background-color: blue; font-size:20px ">обрабатывает алмазы</div>
+	<div class="answer3" style="width: 500px; height: 100px; background-color: yellow; font-size:20px ">ничего</div>
+
+</div>
+<script type="text/javascript">
+	find("question1 answer1").click("alert", "неправильно");
+	find("question1 answer2").click("alert", "неправильно");
+	find("question1 answer3").click("show", "question2", "Да!");
+
+	find("question2 answer1").click("show", "question3", "Да!");
+	find("question2 answer2").click("alert", "неправильно");
+	find("question2 answer3").click("alert", "неправильно");
+
+	find("question3 answer1").click("alert", "неправильно");
+	find("question3 answer2").click("show", "question4", "Да!");
+	find("question3 answer3").click("alert", "неправильно");
+</script>
+

@@ -1,0 +1,42 @@
+
+<div class="question1" style="background-color: blue;margin-left: 300px; width: 500px;">
+    <img style="width: 500px;" src="https://clinic-korona.ru/wp-content/uploads/2021/06/Depositphotos_53636933_l-2015.jpg">
+    <h1>Что делает этот врач?</h1>
+	<div class="answer1" style="height: 200px;background-color: green;width: 500px;font-size: 30px;">Осматривает</div>
+	<div class="answer2" style="height: 200px;background-color: red;width: 500px;font-size: 30px;">Измеряет давление</div>
+	<div class="answer3" style="height: 200px;background-color: yellow;width: 500px;font-size: 30px;">Выдает лекарства</div>
+</div> 
+<div class="question2" style="background-color: blue; display: none; margin-left: 300px; width: 500px;">
+    <img style="width: 500px;" src="https://s1.stc.all.kpcdn.net/putevoditel/projectid_406014/images/tild3532-6562-4131-b736-643264313562__screenshot_41.jpg">
+    <h1>Что делает шахтер в шахте?</h1>
+	<div class="answer1" style="height: 200px;background-color: green;width: 500px;font-size: 30px;">Ищет ископаемые</div>
+	<div class="answer2" style="height: 200px;background-color: red;width: 500px;font-size: 30px;">Отдыхает</div>
+	<div class="answer3" style="height: 200px;background-color: yellow;width: 500px;font-size: 30px;">Копает ямы</div>
+</div>
+<div class="question3" style="background-color: blue; display: none; display margin-left: 300px; width: 500px;">
+    <img style="width: 500px;" src="https://public.superjob.ru/images/profi_articles/image/5364_423563c93dc0bc59db44717526fdfd1e.jpg">
+    <h1>Что делает стоитель?</h1>
+	<div class="answer1" style="height: 200px;background-color: green;width: 500px;font-size: 30px;">Тоскает доски</div>
+	<div class="answer2" style="height: 200px;background-color: red;width: 500px;font-size: 30px;">Строит дома</div>
+	<div class="answer3" style="height: 200px;background-color: yellow;width: 500px;font-size: 30px;">Смотрит постройки</div>
+</div>
+<img class="img" src="https://stihi.ru/pics/2019/06/21/4325.jpg"style="display: none;">
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+<script type="text/javascript"> 
+  
+  find("question1 answer1").click("alert", "неправильно:(");
+  find("question1 answer2").click("show", "question2", "правильно!");
+  find("question1 answer3").click("alert", "неправильно:(");
+
+
+
+  find("question2 answer1").click("show","question3", "правильно!");
+  find("question2 answer2").click("alert", "неправильно");
+  find("question2 answer3").click("alert", "неправильно:(");
+
+
+
+  find("question3 answer1").click("alert", "неправильно:(");
+  find("question3 answer2").click("show", "img", "правильно!");
+  find("question3 answer3").click("alert","неправильно:(");
+</script>
