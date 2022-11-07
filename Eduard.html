@@ -1,0 +1,49 @@
+
+<div class="question1" style="width: 500px; background-color: azure; margin-left: 350px;">
+	<img style="width: 500px;" src="https://papik.pro/uploads/posts/2022-01/1641194578_38-papik-pro-p-risunok-shakhti-detskii-56.jpg">
+	<h1>Кто изображён на картинке?</h1>
+	<div class="answer1" style="width: 500px;height: 100px; background-color: skyblue; font-size: 50px;">Шахтёр</div>
+	<div class="answer2" style="width: 500px;height: 100px; background-color: blue;  font-size: 50px;">Врач</div>
+	<div class="answer3" style="width: 500px;height: 100px; background-color: darkblue; font-size: 50px;">Водитель</div>
+</div>
+<div class="question2" style="width: 500px; background-color: azure; margin-left: 350px; display: none;">
+	<img style="width: 500px; " src="https://stihi.ru/pics/2022/08/18/4899.jpg">
+	<h1>Чем занимается этот человек?</h1>
+	<div class="answer1" style="width: 500px;height: 100px; background-color: skyblue; font-size: 50px">Водит машину</div>
+	<div class="answer2" style="width: 500px;height: 100px; background-color: blue; font-size: 50px">Копает минералы</div>
+	<div class="answer3" style="width: 500px;height: 100px; background-color: darkblue; font-size: 50px">Работает с бумагами</div>
+</div>
+<div class="question3" style="width: 500px; background-color: azure; margin-left: 350px; display: none;">
+	<img style="width: 500px;" src="https://www.desura.com/files/images/f5/f5eec2b61d63a2e7f60d8c382f8b0ac3_70.png">
+	<h1>Что у него на голове?</h1>
+	<div class="answer1" style="width: 500px;height: 100px; background-color: skyblue; font-size: 50px">Каска</div>
+	<div class="answer2" style="width: 500px;height: 100px; background-color: blue; font-size: 50px">Шапка</div>
+	<div class="answer3" style="width: 500px;height: 100px; background-color: darkblue; font-size: 50px">Ничего</div>
+</div>
+<div class="question4" style="width: 500px; background-color: azure; margin-left: 350px; display: none;">
+	<iframe width="500" height="315" src="https://www.youtube.com/embed/u6QlWROYX0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<h1>Про кого видео?</h1>
+	<div class="answer1" style="width: 500px;height: 100px; background-color: skyblue; font-size: 50px">Шахтёра</div>
+	<div class="answer2" style="width: 500px;height: 100px; background-color: blue; font-size: 50px">Бизнесмена</div>
+	<div class="answer3" style="width: 500px;height: 100px; background-color: darkblue; font-size: 50px">Доставщика</div>
+</div>
+<div class="images"; style="width: 500px; background-color: azure; margin-left: 350px; display: none;"> 
+	<img style="width: 500px;" src="https://fikiwiki.com/uploads/posts/2022-02/1644929325_1-fikiwiki-com-p-ura-krasivie-kartinki-1.jpg">
+</div>
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js">
+	
+</script>
+<script type="text/javascript">
+	find("question1 answer1").click("show", "question2", "Верно");
+	find("question1 answer2").click("alert", "Неверно");
+	find("question1 answer3").click("alert", "Неверно");
+	find("question2 answer1").click("alert", "Неверно");
+	find("question2 answer2").click("show", "question3", "Верно");
+	find("question2 answer3").click("alert", "Неверно");
+	find("question3 answer1").click("show", "question4", "Верно");
+	find("question3 answer2").click("alert", "Неверно");
+	find("question3 answer3").click("alert", "Неверно");
+	find("question4 answer1").click("show", "images", "Верно");
+	find("question4 answer2").click("alert", "Неверно");
+	find("question4 answer3").click("alert", "Неверно");
+</script>
